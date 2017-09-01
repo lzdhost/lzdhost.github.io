@@ -1,21 +1,130 @@
-<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="false" exportTarget="other" domain="lixcord.tk" resolutions="1x" timestamp="1504198222403">
+<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="lixcord.tk" resolutions="1x,2x" timestamp="1504275582395">
   <folder name="css">
-    <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="4006666682" ref="index"/>
+    <file name="site_global.css" crc="4207308428"/>
+    <file name="pricing.css" crc="115568903" ref="pricing"/>
+    <file name="index.css" crc="97306984" ref="index"/>
+    <file name="about.css" crc="512439292" ref="about"/>
+    <file name="downloads.css" crc="468199181" ref="downloads"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="17924269" ref="index"/>
-    <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="278381782" ref="index"/>
-    <file name="require.js" crc="3861931657" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:pricing:about:downloads"/>
+    <file name="museutils.js" crc="17924269" ref="index:pricing:about:downloads"/>
+    <file name="whatinput.js" crc="86476730" ref="index:pricing:about:downloads"/>
+    <file name="museconfig.js" crc="278381782" ref="index:pricing:about:downloads"/>
+    <file name="jquery.musemenu.js" crc="4286030528" ref="index:pricing:about:downloads"/>
+    <file name="jquery.watch.js" crc="4240030481" ref="index:pricing:about:downloads"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:pricing:about:downloads"/>
+    <file name="require.js" crc="3861931657" ref="index:pricing:about:downloads"/>
   </folder>
   <folder name="images">
-    <file name="img.jpg" crc="4162437241" seo="true" ref="index">
+    <file name="logo.jpg" crc="27796095" seo="true" ref="index:pricing:about:downloads">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+      <caption webpage="downloads" alt=""/>
+      <caption webpage="pricing" alt=""/>
+      <caption webpage="about" alt=""/>
     </file>
+    <file name="u178-4-a.png" crc="55302395" ref="index"/>
+    <file name="u178-4-a_2x.png" crc="4195067178" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:pricing:about:downloads"/>
+    <file name="u1762.png" crc="4102842099" ref="index"/>
+    <file name="u1762_2x.png" crc="457040529" ref="index"/>
+    <file name="u1762-a.png" crc="141823123" ref="index"/>
+    <file name="u1762-a_2x.png" crc="3917633328" ref="index"/>
+    <file name="u2130.png" crc="488545515" ref="index"/>
+    <file name="u2130_2x.png" crc="352164807" ref="index"/>
+    <file name="u2130-a.png" crc="234845138" ref="index"/>
+    <file name="u2130-a_2x.png" crc="295568868" ref="index"/>
+    <file name="u1588.png" crc="261025132" ref="index"/>
+    <file name="u1588_2x.png" crc="4021449470" ref="index"/>
+    <file name="u1588-a.png" crc="3859386984" ref="index"/>
+    <file name="u1588-a_2x.png" crc="68677562" ref="index"/>
+    <file name="u715-4.png" crc="4192326665" ref="index"/>
+    <file name="u715-4_2x.png" crc="120346606" ref="index"/>
+    <file name="u718-4.png" crc="4233720468" ref="index"/>
+    <file name="u718-4_2x.png" crc="30232830" ref="index"/>
+    <file name="u726-4.png" crc="4228181073" ref="index"/>
+    <file name="u726-4_2x.png" crc="4051529816" ref="index"/>
+    <file name="u2035-4.png" crc="391311986" ref="index"/>
+    <file name="u2035-4_2x.png" crc="76719648" ref="index"/>
+    <file name="u1444.png" crc="4210552645" ref="pricing"/>
+    <file name="u1444_2x.png" crc="32766358" ref="pricing"/>
+    <file name="u1444-a.png" crc="3840925607" ref="pricing"/>
+    <file name="u1444-a_2x.png" crc="4036194360" ref="pricing"/>
+    <file name="u1783.png" crc="4102842099" ref="pricing"/>
+    <file name="u1783_2x.png" crc="457040529" ref="pricing"/>
+    <file name="u1783-a.png" crc="141823123" ref="pricing"/>
+    <file name="u1783-a_2x.png" crc="3917633328" ref="pricing"/>
+    <file name="u2147-4-a.png" crc="234845138" ref="pricing"/>
+    <file name="u2147-4-a_2x.png" crc="295568868" ref="pricing"/>
+    <file name="u1609.png" crc="261025132" ref="pricing"/>
+    <file name="u1609_2x.png" crc="4021449470" ref="pricing"/>
+    <file name="u1609-a.png" crc="3859386984" ref="pricing"/>
+    <file name="u1609-a_2x.png" crc="68677562" ref="pricing"/>
+    <file name="u2228-4.png" crc="3821031822" ref="pricing"/>
+    <file name="u2228-4_2x.png" crc="3758385905" ref="pricing"/>
+    <file name="basic.jpg" crc="3921910211" seo="true" ref="pricing">
+      <caption webpage="pricing" alt=""/>
+    </file>
+    <file name="elite.jpg" crc="3875522016" seo="true" ref="pricing">
+      <caption webpage="pricing" alt=""/>
+    </file>
+    <file name="u1573.png" crc="4210552645" ref="about"/>
+    <file name="u1573_2x.png" crc="32766358" ref="about"/>
+    <file name="u1573-a.png" crc="3840925607" ref="about"/>
+    <file name="u1573-a_2x.png" crc="4036194360" ref="about"/>
+    <file name="u1802.png" crc="4102842099" ref="about"/>
+    <file name="u1802_2x.png" crc="457040529" ref="about"/>
+    <file name="u1802-a.png" crc="141823123" ref="about"/>
+    <file name="u1802-a_2x.png" crc="3917633328" ref="about"/>
+    <file name="u2171.png" crc="488545515" ref="about"/>
+    <file name="u2171_2x.png" crc="352164807" ref="about"/>
+    <file name="u2171-a.png" crc="234845138" ref="about"/>
+    <file name="u2171-a_2x.png" crc="295568868" ref="about"/>
+    <file name="u1628-4-a.png" crc="4099955997" ref="about"/>
+    <file name="u1628-4-a_2x.png" crc="4259760114" ref="about"/>
+    <file name="gecco.jpg" crc="495236462" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="u1652-4.png" crc="90871983" ref="about"/>
+    <file name="u1652-4_2x.png" crc="4156301868" ref="about"/>
+    <file name="u1651-4.png" crc="245234302" ref="about"/>
+    <file name="u1651-4_2x.png" crc="474556051" ref="about"/>
+    <file name="lzd.jpg" crc="87779947" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="u1654-4.png" crc="257935473" ref="about"/>
+    <file name="u1654-4_2x.png" crc="3920066341" ref="about"/>
+    <file name="u1653-4.png" crc="346245999" ref="about"/>
+    <file name="u1653-4_2x.png" crc="464340462" ref="about"/>
+    <file name="u1740.png" crc="4210552645" ref="downloads"/>
+    <file name="u1740_2x.png" crc="32766358" ref="downloads"/>
+    <file name="u1740-a.png" crc="3840925607" ref="downloads"/>
+    <file name="u1740-a_2x.png" crc="4036194360" ref="downloads"/>
+    <file name="u1824-4-a.png" crc="4047836625" ref="downloads"/>
+    <file name="u1824-4-a_2x.png" crc="348191908" ref="downloads"/>
+    <file name="u2191.png" crc="488545515" ref="downloads"/>
+    <file name="u2191_2x.png" crc="352164807" ref="downloads"/>
+    <file name="u2191-a.png" crc="234845138" ref="downloads"/>
+    <file name="u2191-a_2x.png" crc="295568868" ref="downloads"/>
+    <file name="u1733.png" crc="261025132" ref="downloads"/>
+    <file name="u1733_2x.png" crc="4021449470" ref="downloads"/>
+    <file name="u1733-a.png" crc="3859386984" ref="downloads"/>
+    <file name="u1733-a_2x.png" crc="68677562" ref="downloads"/>
+    <file name="u2232-4.png" crc="3774062882" ref="downloads"/>
+    <file name="u2232-4_2x.png" crc="4191648991" ref="downloads"/>
+    <file name="u2238-4.png" crc="493637728" ref="downloads"/>
+    <file name="u2238-4_2x.png" crc="172217966" ref="downloads"/>
+    <file name="u2247-4.png" crc="3888012056" ref="downloads"/>
+    <file name="u2247-4_2x.png" crc="273398245" ref="downloads"/>
+    <file name="u2253-4.png" crc="499261292" ref="downloads"/>
+    <file name="u2253-4_2x.png" crc="4019192746" ref="downloads"/>
+    <file name="u2259-4.png" crc="260671893" ref="downloads"/>
+    <file name="u2259-4_2x.png" crc="3985610860" ref="downloads"/>
+    <file name="u2265-4.png" crc="4226083822" ref="downloads"/>
+    <file name="u2265-4_2x.png" crc="264564920" ref="downloads"/>
   </folder>
-  <file name="index.html" crc="4104973425" seo="true" mt="1504198205363" redirect="true"/>
+  <file name="index.html" crc="3987857218" seo="true" mt="1504268971607" redirect="true"/>
+  <file name="pricing.html" crc="122630295" seo="true" mt="1504275030396" redirect="true"/>
+  <file name="about.html" crc="367675312" seo="true" mt="1504269223185" redirect="true"/>
+  <file name="downloads.html" crc="3978777495" seo="true" mt="1504275517990" redirect="true"/>
 </manifest>
